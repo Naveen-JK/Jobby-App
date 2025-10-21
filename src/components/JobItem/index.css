@@ -1,0 +1,148 @@
+.job-item {
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.rating {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-employee-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.location {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.employee-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.employee-type {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.package {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.line {
+  color: #7e858e;
+  width: 100%;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.job-description {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item {
+    padding: 15px;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .title {
+    font-size: 16px;
+  }
+  
+  .rating {
+    font-size: 14px;
+  }
+  
+  .location,
+  .employee-type {
+    font-size: 12px;
+  }
+  
+  .package {
+    font-size: 14px;
+  }
+  
+  .description-heading {
+    font-size: 16px;
+  }
+  
+  .job-description {
+    font-size: 14px;
+  }
+}

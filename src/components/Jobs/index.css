@@ -1,0 +1,286 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.jobs-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.filters-group {
+  width: 100%;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  width: 50px;
+}
+
+.profile-name {
+  color: #6366f1;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.filters-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-input,
+.radio-input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filter-label {
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.line {
+  border: 1px solid #475569;
+  margin: 20px 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.search-input {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: #64748b;
+}
+
+.search-button {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.jobs-list-container {
+  width: 100%;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.no-jobs-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.no-jobs-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.no-jobs-desc {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.jobs-failure-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.jobs-failure-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.jobs-failure-desc {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.mobile-search {
+  display: block;
+}
+
+.desktop-search {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    padding: 40px;
+  }
+
+  .jobs-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .filters-group {
+    width: 25%;
+    margin-right: 30px;
+  }
+
+  .jobs-list-container {
+    width: 72%;
+  }
+
+  .mobile-search {
+    display: none;
+  }
+
+  .desktop-search {
+    display: flex;
+  }
+
+  .profile-container {
+    min-height: 200px;
+  }
+
+  .profile-name {
+    font-size: 22px;
+  }
+
+  .profile-description {
+    font-size: 16px;
+  }
+
+  .filter-heading {
+    font-size: 20px;
+  }
+
+  .filter-label {
+    font-size: 16px;
+  }
+
+  .search-container {
+    max-width: 400px;
+  }
+
+  .search-input {
+    font-size: 16px;
+  }
+
+  .no-jobs-img {
+    width: 350px;
+  }
+
+  .no-jobs-heading {
+    font-size: 32px;
+  }
+
+  .no-jobs-desc {
+    font-size: 16px;
+  }
+
+  .jobs-failure-img {
+    width: 350px;
+  }
+
+  .jobs-failure-heading {
+    font-size: 32px;
+  }
+
+  .jobs-failure-desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .filters-group {
+    width: 28%;
+  }
+
+  .jobs-list-container {
+    width: 68%;
+  }
+
+  .search-container {
+    max-width: 450px;
+  }
+}
